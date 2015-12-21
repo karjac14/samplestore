@@ -28,3 +28,25 @@
   content: "";
   padding: 0;
 }
+
+.store {
+  text-align: center;
+}
+
+.store img {
+  /*width: 70%;*/
+  max-height: 250px;
+}
+
+.store a {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.items {
+  margin-bottom: 40px;
+}
+
+.full-img img {
+  width: 100%;
+}

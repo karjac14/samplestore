@@ -20,12 +20,12 @@
       },
       {
         "name": "blue5.jpg"
-      },
+      }
     ]
   },
   {
     "id": 2,
-    "name": "The Best Abstract",
+    "name": "The Best Thing",
     "description": "lorem Ipsum nulla non odio consectetur condimentum. Fusce ac enim elementum, vestibulum felis ac, varius mi. Cras magna lorem, eleifend id ultricies vel, faucibus in metus. Donec tristique pulvinar turpis. Praesent eleifend aliquam lectus vel sodales. Suspendisse ante eros, placerat sed dolor in, placerat eleifend risus. Fusce malesuada enim id metus hendrerit finibus. Maecenas ac purus vitae sapien tristique vestibulum. Sed massa ex, consectetur id tellus vitae, mollis luctus massa. Vivamus sodales, tellus quis rutrum ultrices, nunc nisi finibus ante, ut fermentum elit felis non nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sed ante in eros vehicula vulputate. In pharetra fringilla nunc vitae sodales. Etiam elementum elit non enim pellentesque auctor. Etiam viverra sapien sit amet ipsum ultrices aliquam. Pellentesque congue lacinia lorem.",
     "type": "abstract",
     "price": 299.99,
@@ -44,7 +44,7 @@
       },
       {
         "name": "red5.jpg"
-      },
+      }
     ]
   },
   {
@@ -52,23 +52,14 @@
     "name": "The Cool Abstract",
     "description": "lorem Ipsum nulla non odio consectetur condimentum. Fusce ac enim elementum, vestibulum felis ac, varius mi. Cras magna lorem, eleifend id ultricies vel, faucibus in metus. Donec tristique pulvinar turpis. Praesent eleifend aliquam lectus vel sodales. Suspendisse ante eros, placerat sed dolor in, placerat eleifend risus. Fusce malesuada enim id metus hendrerit finibus. Maecenas ac purus vitae sapien tristique vestibulum. Sed massa ex, consectetur id tellus vitae, mollis luctus massa. Vivamus sodales, tellus quis rutrum ultrices, nunc nisi finibus ante, ut fermentum elit felis non nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sed ante in eros vehicula vulputate. In pharetra fringilla nunc vitae sodales. Etiam elementum elit non enim pellentesque auctor. Etiam viverra sapien sit amet ipsum ultrices aliquam. Pellentesque congue lacinia lorem.",
     "type": "abstract",
-    "price": 199.99,
+    "price": 249.99,
     "images": [
       {
-        "name": "red1.jpg"
+        "name": "y1.jpg"
       },
       {
-        "name": "red2.jpg"
-      },
-      {
-        "name": "red3.jpg"
-      },
-      {
-        "name": "red4.jpg"
-      },
-      {
-        "name": "red5.jpg"
-      },
+        "name": "y2.jpg"
+      }
     ]
   }
 ]
