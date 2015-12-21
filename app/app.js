@@ -7,6 +7,12 @@ angular.module('templateStore', [
   'templateStore.view2',
   'templateStore.templates'
 ]).
+//default landing page
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/templates'});
 }]);
+
+//TODO: try to add .value method here
+
+//TODO: try to add .constant method here
+s
