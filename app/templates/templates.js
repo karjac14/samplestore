@@ -18,11 +18,23 @@ angular.module('templateStore.templates', ['ngRoute'])
           $scope.templates = response.data;
         });
   }])
-  .controller('TemplatesDtl', [ '$scope', '$http', function ($scope, $http) {
+  .controller('TemplatesDtl', [ '$scope', '$http', '$routeParams', '$filter', function ($scope, $http, $routeParams, $filter) {
+    var templateId = $routeParams.templateId;
     $http.get('json/store.json')
       .then(
         function(response){
-          $scope.templates = response.data;
+          var data = response.data;
+          console.log(data);
+          $scope.template = $filter ('filter')(data, function (d){
+            console.log(d.id == templateId);
+            return d.id == templateId;
+          })[0]; //sub-0 because $filter output is an array enclosing an object
+          console.log($scope.template);
+          $scope.fullImage = $scope.template.images[0].name;
         });
 
-  }])
+    $scope.changeImg = function(img){
+      $scope.fullImage = img.name;
+    }
+
+  }]);

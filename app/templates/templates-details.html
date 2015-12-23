@@ -1,14 +1,21 @@
 <div class="row">
-  <a href="#/templates">Go Back </a>
+  <a class="go-back" href="#/templates">Go Back </a>
   <br>
   <br>
-  <div class="col-md-4 full-img">
-    <img src="http://lorempixel.com/700/870/abstract/">
+  <div class="col-md-4 col-sm-12 full-img">
+    <img class="feat-img" src="img/{{fullImage}}">
+    <div class"row">
+      <div ng-repeat="image in template.images | limitTo:4">
+        <div class="col-md-3 col-sm-3 col-xs-3">
+          <img ng-src="img/{{image.name}}" ng-click="changeImg(image)">
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-md-8">
-    <h3>The Great Abstract</h3>
-    <p> Details Here! </p>
-    <h4>34.99</h4>
+  <div class="col-md-8 col-sm-12 col-xs-12">
+    <h3>{{template.name}}</h3>
+    <p>{{template.description}}</p>
+    <h4>{{template.price | currency}}</h4>
     BUY NOW
   </div>
 </div>

@@ -39,7 +39,7 @@
 }
 
 .store a {
-  width: 50%;
+  width: 150px;
   margin: 0 auto;
 }
 
@@ -49,4 +49,17 @@
 
 .full-img img {
   width: 100%;
+}
+
+.feat-img {
+  margin-bottom: 10px;
+}
+
+.go-back {
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
 }
