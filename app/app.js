@@ -15,4 +15,3 @@ config(['$routeProvider', function($routeProvider) {
 //TODO: try to add .value method here
 
 //TODO: try to add .constant method here
-s
