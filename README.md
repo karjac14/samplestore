@@ -1,3 +1,4 @@
+
 # samplestore
 
 
@@ -5,7 +6,7 @@ Learning more of Angular Framework
 
 Things I learned:
 
-1. Learning to implement modularization in Angular. 
+1. Learning to implement modularization in Angular.
 
       -Modules within a module.
 
@@ -14,3 +15,5 @@ Things I learned:
 2. Practice $filter service
 
 3. Basic Bootstrap grid system
+
+Used Angular-Seed Skeleton (https://github.com/angular/angular-seed)
