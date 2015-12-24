@@ -3,11 +3,11 @@
   <br>
   <br>
   <div class="col-md-4 col-sm-12 full-img">
-    <img class="feat-img" src="img/{{fullImage}}">
+    <img class="feat-img" src="app/img/{{fullImage}}">
     <div class"row">
       <div ng-repeat="image in template.images | limitTo:4">
         <div class="col-md-3 col-sm-3 col-xs-3">
-          <img ng-src="img/{{image.name}}" ng-click="changeImg(image)">
+          <img ng-src="app/img/{{image.name}}" ng-click="changeImg(image)">
         </div>
       </div>
     </div>
